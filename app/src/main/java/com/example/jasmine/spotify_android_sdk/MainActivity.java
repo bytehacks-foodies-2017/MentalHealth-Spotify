@@ -116,13 +116,9 @@ public class MainActivity extends Activity implements
     public void onLoggedIn() {
         Log.d("MainActivity", "User logged in");
 
-        mPlayer.playUri(null, "spotify:track:1uNFoZAHBGtllmzznpCI3s", 0, 0);
+        mPlayer.playUri(null, "spotify:track:09CtPGIpYB4BrO8qb1RGsF", 0, 0);
     }
-
-    @Override
-    public void onLoggedIn() {
-        Log.d("MainActivity", "User logged in");
-    }
+    
 
     @Override
     public void onLoggedOut() {
